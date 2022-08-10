@@ -5,7 +5,7 @@ const express = require('express')
 require('dotenv').config()
 const PORT = process.env.PORT
 const app = express()
-var test='we r testing'
+
 
 // MIDDLEWARE
 app.set('views', __dirname + '/views')
